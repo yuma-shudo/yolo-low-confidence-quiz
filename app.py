@@ -5,7 +5,7 @@ import random
 
 st.set_page_config(page_title="YOLO Quiz App", layout="wide")
 
-st.title("YOLO Object Detection & Quiz App")
+st.title("YOLO Low Confidence Quiz (頼りない画像認識クイズ)")
 st.subheader("画像をアップロードした後、下に表示されるボタンを押すとクイズが始まります！")
 
 #重いのでcacheを使ってmodelをロード
