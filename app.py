@@ -9,7 +9,7 @@ register_heif_opener()
 
 st.set_page_config(page_title="YOLO Quiz App", layout="wide")
 
-st.title("YOLO Low Confidence Quiz (頼りない画像認識クイズ)")
+st.title("誤検知クイズ！")
 st.caption("画像をアップロードした後、下に表示されるボタンを押すとクイズが始まります！")
 
 # --- Model Loading ---
